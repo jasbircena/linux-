@@ -1,0 +1,19 @@
+find /files -type f -mmin -60
+
+for all files updated in 1 minute
+
+find /home/jasbir/ -type f -mmin -60 
+
+copy all files to different folder 
+
+cp -R /home/jasbir/files newdirectory/
+
+
+list hidden files
+
+ls -a /home/jasbir
+
+
+ls -a  /home/jasbir/ -type f -mmin -60
+
+find ls-la  /home/jasbir/ -type f -mmin -60
